@@ -8,7 +8,7 @@
 
     function flipCoin()
     {
-  var flipValue = (heads)(tails);
+  var flipValue = Math.floor((Math.random() * 2) + 1);
 
   var coin = document.getElementById('coin');
   coin.innerHTML = flipValue;
